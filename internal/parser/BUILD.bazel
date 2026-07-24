@@ -8,7 +8,7 @@ go_library(
         "parser.go",
         "string_util.go",
     ],
-    importpath = "github.com/google/go-jsonnet/internal/parser",
+    importpath = "github.com/andrewchambers/go-jsonnet/internal/parser",
     visibility = ["//:__subpackages__"],
     deps = [
         "//ast",

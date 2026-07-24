@@ -1,7 +1,7 @@
 load("@gazelle//:def.bzl", "gazelle")
 load("@rules_go//go:def.bzl", "go_library", "go_test")
 
-# gazelle:prefix github.com/google/go-jsonnet
+# gazelle:prefix github.com/andrewchambers/go-jsonnet
 gazelle(
     name = "gazelle",
 )
@@ -29,7 +29,7 @@ go_library(
         "vm.go",
         "yaml.go",
     ],
-    importpath = "github.com/google/go-jsonnet",
+    importpath = "github.com/andrewchambers/go-jsonnet",
     visibility = ["//visibility:public"],
     deps = [
         "//ast",

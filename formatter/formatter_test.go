@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-jsonnet/internal/testutils"
+	"github.com/andrewchambers/go-jsonnet/internal/testutils"
 )
 
 var update = flag.Bool("update", false, "update .golden files")
@@ -100,7 +100,7 @@ func TestFormatNoImplicitPlus(t *testing.T) {
 	flag.Parse()
 
 	// Regression test for
-	// https://github.com/google/go-jsonnet/issues/809#issuecomment-3897434856
+	// https://github.com/andrewchambers/go-jsonnet/issues/809#issuecomment-3897434856
 	//
 	// (No support yet for custom formatter config/flags in the testdata/ driven tests)
 

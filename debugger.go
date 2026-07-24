@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/toolutils"
+	"github.com/andrewchambers/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/toolutils"
 )
 
 type Debugger struct {

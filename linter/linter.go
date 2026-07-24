@@ -4,15 +4,15 @@ package linter
 import (
 	"io"
 
-	jsonnet "github.com/google/go-jsonnet"
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/errors"
-	"github.com/google/go-jsonnet/internal/parser"
+	jsonnet "github.com/andrewchambers/go-jsonnet"
+	"github.com/andrewchambers/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/internal/errors"
+	"github.com/andrewchambers/go-jsonnet/internal/parser"
 
-	"github.com/google/go-jsonnet/linter/internal/common"
-	"github.com/google/go-jsonnet/linter/internal/traversal"
-	"github.com/google/go-jsonnet/linter/internal/types"
-	"github.com/google/go-jsonnet/linter/internal/variables"
+	"github.com/andrewchambers/go-jsonnet/linter/internal/common"
+	"github.com/andrewchambers/go-jsonnet/linter/internal/traversal"
+	"github.com/andrewchambers/go-jsonnet/linter/internal/types"
+	"github.com/andrewchambers/go-jsonnet/linter/internal/variables"
 )
 
 // ErrorWriter encapsulates a writer and an error state indicating when at least

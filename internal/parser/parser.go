@@ -20,9 +20,9 @@ package parser
 import (
 	"fmt"
 
-	"github.com/google/go-jsonnet/ast"
-	iast "github.com/google/go-jsonnet/internal/ast"
-	"github.com/google/go-jsonnet/internal/errors"
+	"github.com/andrewchambers/go-jsonnet/ast"
+	iast "github.com/andrewchambers/go-jsonnet/internal/ast"
+	"github.com/andrewchambers/go-jsonnet/internal/errors"
 )
 
 // ---------------------------------------------------------------------------

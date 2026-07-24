@@ -9,7 +9,7 @@ alias(
 go_library(
     name = "formatter",
     srcs = ["formatter.go"],
-    importpath = "github.com/google/go-jsonnet/formatter",
+    importpath = "github.com/andrewchambers/go-jsonnet/formatter",
     visibility = ["//visibility:public"],
     deps = [
         "//ast",

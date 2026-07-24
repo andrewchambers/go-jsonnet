@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/ast"
 )
 
 var (

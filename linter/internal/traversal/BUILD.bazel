@@ -3,7 +3,7 @@ load("@rules_go//go:def.bzl", "go_library")
 go_library(
     name = "traversal",
     srcs = ["traversal.go"],
-    importpath = "github.com/google/go-jsonnet/linter/internal/traversal",
+    importpath = "github.com/andrewchambers/go-jsonnet/linter/internal/traversal",
     visibility = ["//linter:__subpackages__"],
     deps = [
         "//ast",

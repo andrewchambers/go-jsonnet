@@ -18,7 +18,7 @@ limitations under the License.
 package ast
 
 import (
-	"github.com/google/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/ast"
 )
 
 type Precedence int

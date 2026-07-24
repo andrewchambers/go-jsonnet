@@ -11,7 +11,7 @@ genrule(
 go_library(
     name = "astgen",
     srcs = ["stdast.go"],
-    importpath = "github.com/google/go-jsonnet/astgen",
+    importpath = "github.com/andrewchambers/go-jsonnet/astgen",
     visibility = ["//:__subpackages__"],
     deps = ["//ast"],
 )

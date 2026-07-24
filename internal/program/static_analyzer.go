@@ -19,8 +19,8 @@ package program
 import (
 	"fmt"
 
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/errors"
+	"github.com/andrewchambers/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/internal/errors"
 )
 
 type analysisState struct {

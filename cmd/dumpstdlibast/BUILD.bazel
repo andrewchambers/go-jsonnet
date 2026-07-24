@@ -3,7 +3,7 @@ load("@rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "dumpstdlibast_lib",
     srcs = ["dumpstdlibast.go"],
-    importpath = "github.com/google/go-jsonnet/cmd/dumpstdlibast",
+    importpath = "github.com/andrewchambers/go-jsonnet/cmd/dumpstdlibast",
     visibility = ["//visibility:private"],
     deps = [
         "//ast",

@@ -2,8 +2,8 @@
 package program
 
 import (
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/parser"
+	"github.com/andrewchambers/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/internal/parser"
 )
 
 // SnippetToAST converts a Jsonnet code snippet to a desugared and analyzed AST.

@@ -9,7 +9,7 @@ alias(
 go_library(
     name = "toolutils",
     srcs = ["ast.go"],
-    importpath = "github.com/google/go-jsonnet/toolutils",
+    importpath = "github.com/andrewchambers/go-jsonnet/toolutils",
     visibility = ["//visibility:public"],
     deps = [
         "//ast",

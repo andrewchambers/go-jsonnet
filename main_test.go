@@ -29,9 +29,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/parser"
-	"github.com/google/go-jsonnet/internal/testutils"
+	"github.com/andrewchambers/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/internal/parser"
+	"github.com/andrewchambers/go-jsonnet/internal/testutils"
 )
 
 var update = flag.Bool("update", false, "update .golden files")
@@ -523,7 +523,7 @@ func TestEvalUnusualFilenames(t *testing.T) {
 
 func TestEvalCachedErrorTwice(t *testing.T) {
 	// Evaluate the same erroneous file twice in the same VM.
-	// See https://github.com/google/go-jsonnet/issues/822
+	// See https://github.com/andrewchambers/go-jsonnet/issues/822
 	vm := MakeVM()
 	_, err1 := vm.EvaluateFile("testdata/syntax_error.jsonnet")
 	if err1 == nil {

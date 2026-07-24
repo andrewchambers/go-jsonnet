@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"syscall/js"
 
-	"github.com/google/go-jsonnet"
-	"github.com/google/go-jsonnet/internal/formatter"
+	"github.com/andrewchambers/go-jsonnet"
+	"github.com/andrewchambers/go-jsonnet/internal/formatter"
 )
 
 // JavascriptImporter allows importing files from a pre-defined map of absolute

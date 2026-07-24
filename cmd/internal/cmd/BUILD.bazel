@@ -3,7 +3,7 @@ load("@rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "cmd",
     srcs = ["utils.go"],
-    importpath = "github.com/google/go-jsonnet/cmd/internal/cmd",
+    importpath = "github.com/andrewchambers/go-jsonnet/cmd/internal/cmd",
     visibility = ["//cmd:__subpackages__"],
 )
 

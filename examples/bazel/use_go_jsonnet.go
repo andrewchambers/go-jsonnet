@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	gjs "github.com/google/go-jsonnet"
+	gjs "github.com/andrewchambers/go-jsonnet"
 )
 
 func main() {

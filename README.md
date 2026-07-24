@@ -2,8 +2,8 @@
 
 [![GoDoc Widget]][GoDoc] [![Coverage Status Widget]][Coverage Status]
 
-[GoDoc]: https://godoc.org/github.com/google/go-jsonnet
-[GoDoc Widget]: https://godoc.org/github.com/google/go-jsonnet?status.png
+[GoDoc]: https://godoc.org/github.com/andrewchambers/go-jsonnet
+[GoDoc Widget]: https://godoc.org/github.com/andrewchambers/go-jsonnet?status.png
 [Coverage Status Widget]: https://coveralls.io/repos/github/google/go-jsonnet/badge.svg?branch=master
 [Coverage Status]: https://coveralls.io/github/google/go-jsonnet?branch=master
 
@@ -27,10 +27,10 @@ system to provide more general isolation if evaluating untrusted code.
 ```shell
 # Using `go get` to install binaries is deprecated.
 # The version suffix is mandatory.
-go install github.com/google/go-jsonnet/cmd/jsonnet@latest
+go install github.com/andrewchambers/go-jsonnet/cmd/jsonnet@latest
 
 # Or other tools in the 'cmd' directory
-go install github.com/google/go-jsonnet/cmd/jsonnet-lint@latest
+go install github.com/andrewchambers/go-jsonnet/cmd/jsonnet-lint@latest
 ```
 
 It's also available on Homebrew:
@@ -43,7 +43,7 @@ brew install go-jsonnet
 
 `jsonnetfmt` and `jsonnet-lint` are also available as [pre-commit](https://github.com/pre-commit/pre-commit) hooks. Example `.pre-commit-config.yaml`:
 ```yaml
-- repo: https://github.com/google/go-jsonnet
+- repo: https://github.com/andrewchambers/go-jsonnet
   rev: # ref you want to point at, e.g. v0.17.0
   hooks:
     - id: jsonnet-format
@@ -61,7 +61,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/google/go-jsonnet"
+	"github.com/andrewchambers/go-jsonnet"
 )
 
 func main() {

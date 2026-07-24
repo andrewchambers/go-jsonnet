@@ -19,7 +19,7 @@ package jsonnet
 import (
 	"fmt"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/andrewchambers/go-jsonnet/ast"
 )
 
 // readyValue

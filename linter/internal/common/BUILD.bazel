@@ -3,7 +3,7 @@ load("@rules_go//go:def.bzl", "go_library")
 go_library(
     name = "common",
     srcs = ["common.go"],
-    importpath = "github.com/google/go-jsonnet/linter/internal/common",
+    importpath = "github.com/andrewchambers/go-jsonnet/linter/internal/common",
     visibility = ["//linter:__subpackages__"],
     deps = [
         "//ast",

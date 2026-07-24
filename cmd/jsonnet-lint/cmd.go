@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 
 	"github.com/fatih/color"
-	"github.com/google/go-jsonnet/cmd/internal/cmd"
-	"github.com/google/go-jsonnet/linter"
+	"github.com/andrewchambers/go-jsonnet/cmd/internal/cmd"
+	"github.com/andrewchambers/go-jsonnet/linter"
 
-	jsonnet "github.com/google/go-jsonnet"
+	jsonnet "github.com/andrewchambers/go-jsonnet"
 )
 
 func version(o io.Writer) {

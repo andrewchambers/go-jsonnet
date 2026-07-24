@@ -6,7 +6,7 @@ gazelle(name = "gazelle")
 go_library(
     name = "use_go_jsonnet_lib",
     srcs = ["use_go_jsonnet.go"],
-    importpath = "github.com/google/go-jsonnet/examples/bazel",
+    importpath = "github.com/andrewchambers/go-jsonnet/examples/bazel",
     visibility = ["//visibility:private"],
     deps = ["@com_github_google_go_jsonnet//:go_default_library"],
 )
