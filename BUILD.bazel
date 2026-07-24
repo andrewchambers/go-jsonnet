@@ -20,6 +20,7 @@ go_library(
         "debugger.go",
         "doc.go",
         "error_formatter.go",
+        "evaluated_value.go",
         "imports.go",
         "interpreter.go",
         "runtime_error.go",
@@ -27,6 +28,7 @@ go_library(
         "util.go",
         "value.go",
         "vm.go",
+        "vm_value.go",
         "yaml.go",
     ],
     importpath = "github.com/andrewchambers/go-jsonnet",
@@ -47,6 +49,7 @@ go_test(
     name = "go-jsonnet_test",
     srcs = [
         "builtins_benchmark_test.go",
+        "evaluated_value_test.go",
         "interpreter_test.go",
         "jsonnet_test.go",
         "main_test.go",
